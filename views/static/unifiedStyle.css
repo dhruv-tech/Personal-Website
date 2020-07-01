@@ -1,0 +1,19 @@
+/* Built by Dhruv */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto&display=swap');
+
+h1 {
+    font: Poppins;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2, .nav-text {
+    font: Poppins;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    font: Roboto;
+}
