@@ -3,17 +3,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto&display=swap');
 
 h1 {
-    font: Poppins;
+    font-family: Poppins;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 h2, .nav-text {
-    font: Poppins;
+    font-family: Poppins;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 p {
-    font: Roboto;
+    font-family: Roboto;
+}
+
+header {
+    background: linear-gradient(15deg, rgba(0,153,255,1) 0%, rgba(64,141,204,1) 55%, rgba(102,102,255,1) 100%);
+    height: 300px;
+    border-top: 5pt solid;
+    border-image: linear-gradient(90deg, rgba(102,102,255,1) 0%, rgba(51,204,204,1) 34%, rgba(0,153,255,1) 100%);
+    border-image-slice: 1;
+    width: 100%;
+}
+
+#logo{
+    height: 33px;
+    width: auto;
+    margin-top: 17px;
+    opacity: 0.95;
+}
+nav {
+    box-shadow: none;
+    background: none;
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav ul a {
+    font-size: 1.1rem !important;
+    padding-top: 5px;
+}
+
+nav ul a:hover {
+    background: none;
+    opacity: 0.8;
+}
+.left-padding {
+    position: relative;
+    left: 3.5% !important;
+}
+.right-padding {
+    position: relative;
+    right: 3.5% !important;
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #FBFBFB;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer { 
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    width: 100%;
+    height: 50px;
+}
+
+footer p { 
+    border-top: 0.5pt solid #BFBFBF;
+    color: #7F7F7F;
+    font-family: Calibri;
+    width: 100%;
+    margin: 0;
+    padding-top: 12.5px;
+}
+
+#page-heading {
+    color: white;
+    max-width: 515px;
+}
+
+#page-heading p{
+    margin: 0;
+    margin-top: -10px;
+}
+
+#heading-wrapper {
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 0px) {
+    #page-heading h1{
+        font-size: 32px;
+        margin-top: 5px;
+    }
+
+    #page-heading p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #page-heading h1{
+        font-size: 33px;
+        margin-top: 0;
+    }
+
+    #page-heading p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #page-heading h1{
+        font-size: 35px;
+    }
+
+    #page-heading p{
+        font-size: 17px;
+    }
 }
