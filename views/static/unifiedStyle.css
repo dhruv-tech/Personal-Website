@@ -40,7 +40,15 @@ nav {
     text-transform: uppercase;
     font-weight: 700;
 }
-
+.sidenav {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #FBFBFB;
+}
+#mobile-menu-icon {
+    margin-top: 5px;
+}
 nav ul a {
     font-size: 1.1rem !important;
     padding-top: 5px;
@@ -98,7 +106,14 @@ footer p {
 }
 
 #heading-wrapper {
-    margin-top: -10px;
+    margin-top: 0px;
+}
+
+#headbg {
+    position: absolute;
+    top: 263px;
+    right: -0.026%;
+    height: 37px;
 }
 
 @media only screen and (min-width: 0px) {
