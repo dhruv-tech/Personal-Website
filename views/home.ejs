@@ -18,6 +18,35 @@
 <body>
     <%- include('partials/header.ejs') %>
     <main>
+        <section class="row heading-row">
+            <h2 class="sub-heading">Skills</h2>
+        </section>
+        <section class="row">
+            <section class="center-flex">
+                <section class="center center-inner">
+                    <section class="circle">
+                        <img src="/static/node-logo.png" alt="Node JS Logo" class="skill-img"/>
+                    </section>
+                    
+                    <section class="circle">
+                        <img src="/static/mongo-logo.png" alt="MongoDB Logo" class="skill-img"/>
+                    </section>
+                    <section class="circle">
+                        <img src="/static/nativescript-logo.png" alt="NativeScript Logo" class="skill-img"/>
+                    </section>
+                    <a href="/resume-highlights">
+                        <section class="circle clickable">
+                            <img src="/static/arrow.png" alt="Explore - Click to see more skills" class="skill-img"/>
+                        </section>
+                    </a>
+                </section>
+            </section>
+        </section>
+
+        <section class="row heading-row">
+            <h2 class="sub-heading">Case Studies</h2>
+        </section>
+
     </main>
     <%- include('partials/footer.ejs') %>
 </body>
