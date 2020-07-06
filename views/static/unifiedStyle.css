@@ -158,6 +158,36 @@ footer p {
     margin-bottom: 51px;
 }
 
+.project {
+    height: 315px;
+    width: 93%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.project-desc{
+    padding-left: 3.5% !important;
+}
+
+.project h2 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.project a {
+    font-family: Poppins;
+    border-radius: 10px;
+}
+
+#enviro {
+    background: linear-gradient(45deg, rgba(31,78,121,1) 0%, rgba(0,112,192,1) 46%, rgba(0,176,240,1) 100%);
+}
+
+#enviro a {
+    color: #17578B;
+}
+
 @media only screen and (min-width: 0px) {
     #page-heading h1{
         font-size: 32px;
@@ -165,7 +195,7 @@ footer p {
     }
 
     .heading-row h2{
-        font-size: 30.9px;
+        font-size: 28px;
     }
 
     #page-heading p{
@@ -176,6 +206,23 @@ footer p {
         /*margin-left: 30vw;*/
         margin-top: 25px;
     }
+    .project h1 {
+        font-size: 29px;
+    }
+    .project-desc {
+        padding-right: 3.5%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .project h1 {
+        margin-top: 35px;
+    }
+    .project-desc {
+        padding-right: 0;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -185,7 +232,7 @@ footer p {
     }
 
     .heading-row h2{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     #page-heading p{
@@ -198,6 +245,11 @@ footer p {
     }
     .center-inner {
         width: 100%;
+    }
+    .project h1 {
+        font-size: 30px;
+        margin-top: 47.2px;
+        margin-bottom: 3px;;
     }
 }
 
