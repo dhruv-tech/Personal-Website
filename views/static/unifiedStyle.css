@@ -164,9 +164,10 @@ footer p {
     border-radius: 12px;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
     color: white;
+    margin-bottom: 10px;
 }
 
-.project-desc{
+.project-desc-left {
     padding-left: 3.5% !important;
 }
 
@@ -178,6 +179,19 @@ footer p {
 .project a {
     font-family: Poppins;
     border-radius: 10px;
+    opacity: 0.8;
+}
+
+.project a:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project .repo {
+    position: relative;
+    height: 27.5px;
+    top: 10px;
+    margin-right: 10px;
 }
 
 #enviro {
@@ -186,6 +200,39 @@ footer p {
 
 #enviro a {
     color: #17578B;
+}
+
+#aquaduct {
+    background: linear-gradient(45deg, rgba(17,129,129,1) 0%, rgba(12,173,168,1) 50%, rgba(18,205,195,1) 100%);
+}
+
+#aquaduct a{
+    color: #108887;
+}
+
+#projects-btn {
+    width: auto;
+    border-radius: 25px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-family: poppins;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    background: white;
+    color: #595959;
+    /* font-weight: bolder; */
+}
+
+#projects-btn:hover {
+    opacity: 0.9;
+}
+#projects-btn span {
+    position: relative;
+    top: 6px;
+}
+
+.btn-row {
+    text-align: center;
 }
 
 @media only screen and (min-width: 0px) {
@@ -212,6 +259,10 @@ footer p {
     .project-desc {
         padding-right: 3.5%;
     }
+
+    .project-desc-right {
+        padding-left: 3.5% !important;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -221,6 +272,16 @@ footer p {
     }
     .project-desc {
         padding-right: 0;
+    }
+    .project-desc-right {
+        padding-right: 3.5% !important;
+        padding-left: 0px !important;
+    }
+    .project .right{
+        text-align: right;
+    }
+    #aquaduct {
+        background: linear-gradient(315deg, rgba(17,129,129,1) 0%, rgba(12,173,168,1) 50%, rgba(18,205,195,1) 100%);
     }
 
 }
