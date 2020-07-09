@@ -7,7 +7,11 @@ app.set("views", "./views")
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-    res.render('home', {heading: "Hello, World_", desc: "I’m Dhruv Malik – an undergraduate at UBC, dedicated problem solver and software developer. I have specialized knowledge in application security & human-computer interaction."});
+    res.render('home', {footerClass: "lg-footer", heading: "Hello, World_", desc: "I’m Dhruv Malik – an undergraduate at UBC, dedicated problem solver and software developer. I have specialized knowledge in application security & human-computer interaction."});
+});
+
+app.get('/projects', (req, res) => {
+    res.render('projects', {footerClass: "", heading: "Projects", desc: "Check out some of my creations over here. I've worked on web apps, mobile apps, desktop programs, npm packages and a whole lot more."});
 });
 
 const port = 3303;
