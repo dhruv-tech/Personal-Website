@@ -14,5 +14,13 @@ app.get('/projects', (req, res) => {
     res.render('projects', {footerClass: "", heading: "Projects", desc: "Check out some of my creations over here. I've worked on web apps, mobile apps, desktop programs, npm packages and a whole lot more."});
 });
 
+app.get('/resume-highlights', (req, res) => {
+    res.render('projects', {footerClass: "", heading: "Resume Highlights", desc: ""});
+});
+
+app.get('/contact', (req, res) => {
+    res.render('projects', {footerClass: "", heading: "Contact", desc: ""});
+});
+
 const port = 3303;
 app.listen(port, () => console.log(`Ready: App active on port ${port}`));
