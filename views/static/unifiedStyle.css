@@ -169,11 +169,11 @@ footer p {
 
 .project {
     height: 315px;
-    width: 93%;
+    width: 100%;
     border-radius: 12px;
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .project-desc-left {
@@ -272,21 +272,49 @@ footer p {
     position: relative;
     padding-left: 3.5% !important;
     padding-right: 3.5% !important;
+    margin-bottom: 0px;
 }
 
 .generic-project {
     border-left: solid 17px;
-    height: 255px;
 }
 
 .theme-blue h1, .theme-blue h2, .theme-blue p{
     background-image: linear-gradient(90deg, rgba(0,153,255,1) 0%, rgba(0,125,237,1) 59%, rgba(0,112,228,1) 100%);
 }
 
+.theme-blue .btn {
+    background: linear-gradient(90deg, rgba(0,153,255,1) 0%, rgba(0,125,237,1) 59%, rgba(0,112,228,1) 100%);
+}
+
 .theme-blue {
     border-color: rgba(0,153,255,1);
 }
 
+.theme-purple h1, .theme-purple h2, .theme-purple p{
+    background-image: linear-gradient(90deg, rgba(102,102,255,1) 0%, rgba(53,53,130,1) 91%, rgba(53,53,130,1) 100%);
+}
+
+.theme-purple .btn {
+    background: linear-gradient(90deg, rgba(102,102,255,1) 0%, rgba(53,53,130,1) 91%, rgba(53,53,130,1) 100%);
+}
+
+.theme-purple {
+    border-color: rgba(102,102,255,1);
+}
+
+.theme-green h1, .theme-green h2, .theme-green p{
+    background-image: linear-gradient(90deg, rgba(18,205,195,1) 0%, rgba(1,143,135,1) 60%, rgba(0,140,133,1) 100%);
+}
+
+.theme-green .btn {
+    background: linear-gradient(90deg, rgba(18,205,195,1) 0%, rgba(1,143,135,1) 60%, rgba(0,140,133,1) 100%);
+}
+
+
+.theme-green {
+    border-color: rgba(18,205,195,1);
+}
 .generic-project h1, .generic-project h2, .generic-project p{
     color: transparent;
     -webkit-background-clip: text;
@@ -339,6 +367,7 @@ html.is-animating .transition-fade {
     }
     .generic-project {
         width: 100%;
+        height: 315px;
     }
 }
 
@@ -372,9 +401,6 @@ html.is-animating .transition-fade {
         height: 39px;
         padding-bottom: 0px;
     }
-    .generic-project {
-        width: 48%;
-    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -407,6 +433,11 @@ html.is-animating .transition-fade {
         height: 250px;
         margin-top: 20px;
         margin-left: 39px;
+    }
+
+    .generic-project {
+        width: 48%;
+        height: 275px;
     }
 }
 
