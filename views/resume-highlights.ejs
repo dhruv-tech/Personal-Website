@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Config -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Highlights - Dhruv's Portfolio - Software Developer & CS Student</title>
+    <meta name="description" content="Highlights of Dhruv's resume - Bio, Education, Skills and Experience.">
+
+    <!-- CSS -->
+    <%- include('partials/common-css.ejs') %>
+    <!-- Deferred Scripts -->
+    <%- include('partials/common-js.ejs') %>
+
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main id="swup" class="transition-fade padding-both">
+        <section class="row" id="resume-buttons">
+            <section class="col s12 l6">
+                <a href="https://linkedin.com/in/dhruvmalik"><img src="/static/linkedin-logo-white.png" alt="Open Linkedin logo"/></a>
+                <a href="/static/resume.pdf" class="waves-effect waves white btn">Download Resume →</a>
+            </section>
+        </section>
+
+        <section class="row hide-on-small-only" id="me">
+            <section class="col m4 l5 right">
+                <img src="/static/me.png" class="right" alt="Dhruv Profile Picture"/>
+              
+            </section>
+        </section>
+
+        <section class="row row-flex">
+            <div class="col s12 l7">
+              <div class="card">
+                <div class="card-content">
+                  <h2 class="card-title">About</h2>
+                  <p>I'm a passionate programmer and a motivated problem solver, with a demonstrated capability in working both independently and collaboratively.
+                    I have specialized knowledge in application security & human-computer interaction, along with experience working in multiple programming languages.
+                    When not working, you'll usually find me bicycling, playing badminton or eating food :) 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <section class="col s12 l5">
+                <div class="card" id="edu">
+                    <div class="card-content">
+                      <h2 class="card-title">Education</h2>
+                      <img src="/static/ubc-crest.png" id="ubc-logo" class="logo" alt="UBC Logo"/>
+                      <p><b>University of British Columbia</b><br/><i>Bachelor of Science, Computer Science</i><br/>2018 - 2022 (Projected)
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <section class="row skills padding-both">
+            <section class="row heading-row">
+                <h2 class="sub-heading">Skills</h2>
+            </section>
+            <section class="padding-both pull-up">
+                <h3><b>Languages</b></h3>
+                <div class="divider"></div>
+                <section class="row no-bottom-margin">
+                    <section class="col s12 m4">
+                        <ul>
+                            <li>NodeJS/JavaScript (ES06)</li>
+                            <li>Python</li>
+                            <li>Git</li>
+                            <li>SQL</li>
+                        </ul>
+                    </section>
+                    <section class="col s12 m4">
+                        <ul>
+                            <li>Java (Core)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </section>
+                </section>
+
+                <h3><b>Technologies & Industry Knowledge</b></h3>
+                <div class="divider"></div>
+                <section class="row">
+                    <section class="col s12 m4">
+                        <ul>
+                            <li>Application & Data Security</li>
+                            <li>Human Computer interaction</li>
+                            <li>Machine Learning</li>
+                            <li>Test-Driven Development</li>
+                        </ul>
+                    </section>
+                    <section class="col s12 m4">
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Mobile Development</li>
+                            <li>MongoDB</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </section>
+                    <section class="col s12 m4">
+                        <ul>
+                            <li>VueJS</li>
+                            <li>NativeScript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section class="row" id="experience">
+            <section class="col s12 m6 heading-row title">
+                <h2 class="sub-heading">Experience</h2>
+            </section>
+            <section class="col s12 m6">
+                <section class="row heading-row">
+                    <div class="card" id="tcs">
+                        <div class="card-content">
+                          <img src="/static/tcs-logo.svg" class="logo hide-on-small-only" alt="TCS Logo"/>
+                          <p><b>Tata Consultancy Services</b><br/>
+                            May 2019 - July 2019<br/>
+                            Worked on projects entailling Robotic Proccess Automation, Machine Learning & NLP.
+                        </p>
+                    </div>
+                </section>
+                <section class="row heading-row">
+                    <div class="card" id="mygov">
+                        <div class="card-content">
+                          <img src="/static/mygov-logo.png" class="logo hide-on-small-only" alt="MyGov Logo"/>
+                          <p><b>MyGov India</b><br/>
+                            May 2017 - July 2017<br/>
+                            Worked on a project entailling software design and web development.
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

@@ -11,15 +11,15 @@ app.get('/', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.render('projects', {footerClass: "", heading: "Projects", desc: "Check out some of my creations over here. I've worked on web apps, mobile apps, desktop programs, npm packages and a whole lot more."});
+    res.render('projects', {footerClass: "lg-footer", heading: "Projects", desc: "Check out some of my creations over here. I've worked on web apps, mobile apps, desktop programs, npm packages and a whole lot more."});
 });
 
 app.get('/resume-highlights', (req, res) => {
-    res.render('projects', {footerClass: "", heading: "Resume Highlights", desc: ""});
+    res.render('resume-highlights', {footerClass: "", heading: "Resume Highlights", desc: `Here's a quick overview of my resume. Want to get in touch or know more:`});
 });
 
 app.get('/contact', (req, res) => {
-    res.render('projects', {footerClass: "", heading: "Contact", desc: ""});
+    res.render('projects', {footerClass: "", heading: "Contact", desc: "Let's get in touch! I'll get back to you as soon as I can."});
 });
 
 const port = 3303;

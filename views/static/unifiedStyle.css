@@ -321,11 +321,179 @@ footer p {
     background-clip: text;
 }
 
+.padding-both {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
 .transition-fade {
     transition: 0.225s;
     opacity: 1;
 }
-  
+
+.card {
+    border-radius: 21px;
+    color: #595959;
+    border-top: rgba(0,153,255,1) solid 15px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card-content {
+    padding-top: 15px !important;
+}
+
+.card-content ul{
+    font-family: roboto;
+    list-style-type: circle !important;
+}
+
+.row-flex .col {
+    min-height: 100%;
+}
+
+.row-flex .card {
+    height: 95% !important;
+}
+
+.logo {
+    height: 75px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 2.5px;
+}
+
+#edu {
+    border-color: #03346A;
+}
+#edu p {
+    display: inline-block;
+    position: relative;
+    top: -14.75px;
+    left: 5px;
+}
+
+#resume-buttons {
+    position: absolute;
+    top: 217px;
+    width: 95%;
+}
+
+#resume-buttons .btn {
+    font-family: Poppins;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#resume-buttons .btn:hover, #resume-buttons img:hover {
+    opacity: 1;
+}
+
+#resume-buttons img {
+    position: relative;
+    height: 27.5px;
+    top: 10px;
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+#resume-buttons a {
+    color: rgba(0,112,192,1);
+}
+
+#me {
+    position: absolute;
+    top: 100px;
+    width: 95%;
+}
+
+#me img {
+    height: 125px;
+    position: relative;
+    right: 50%;
+}
+
+.skills {
+    background: rgb(242,242,242);
+    position: relative;
+    top: 15px;
+    left: -3.5%;
+    width: 107%;
+    padding-top: 15px;
+}
+
+.skills h3 {
+    color: #595959;
+    font-size: 21px;
+    font-family: roboto;
+}
+
+.skills ul li {
+    list-style-type: square;
+    padding-bottom: 17.5px;
+    font-family: roboto;
+    color: #595959;
+    font-size: 18px;
+}
+
+.pull-up {
+    margin-top: -15px;
+}
+
+#experience {
+    margin-bottom: 39px;
+    margin-top: 39px;
+    display: flex;
+}
+
+#experience .col {
+    min-height: 100%;
+}
+
+#experience .card {
+    border-top: none;
+    border-left: 21px solid;
+    width: 85%;
+    margin-top: 25px !important;
+}
+
+#tcs{
+    border-color: rgba(0,153,255,1) !important;
+}
+
+#mygov{
+    border-color: rgba(12,173,168,1) !important;
+}
+
+#experience p {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    width: 70%;
+}
+
+#experience .s12 {
+    width: 100%;
+}
+h3 {
+    margin-top: 0px !important;
+}
+
+.skills ul {
+    margin: 0;
+}
+
+.skills .divider {
+    margin-bottom: 18px;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0px !important;
+}
 html.is-animating .transition-fade {
     opacity: 0;
 }
@@ -368,6 +536,15 @@ html.is-animating .transition-fade {
     .generic-project {
         width: 100%;
         height: 315px;
+    }
+    .row-flex {
+        display: block;
+    }
+    #ubc-logo {
+        margin-bottom: 2px;
+    }
+    #experience {
+        display: block;
     }
 }
 
@@ -439,6 +616,20 @@ html.is-animating .transition-fade {
         width: 48%;
         height: 275px;
     }
+
+    .row-flex {
+        display: flex;
+    }
+    #ubc-logo {
+        margin-bottom: 0px;
+    }
+    #experience {
+        display: flex;
+    }
+    #experience .title {
+        border-right: solid 1px #7F7F7F;
+    }
+    
 }
 
 @media only screen and (min-width: 1200px) {
