@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Config -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Dhruv's Portfolio - Software Developer & CS Student</title>
+    <meta name="description" content="Take a look at some of Dhruv's past projects. Projects range from mobile apps to npm packages">
+
+    <!-- CSS -->
+    <%- include('partials/common-css.ejs') %>
+    <!-- Deferred Scripts -->
+    <%- include('partials/common-js.ejs') %>
+
+</head>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main id="swup" class="transition-fade">
+        <section class="row" id="contact">
+            <form class="col s12">
+                <section class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="name">Name</label>
+                </section>
+            </form>
+        </section>
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

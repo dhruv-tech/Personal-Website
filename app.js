@@ -19,7 +19,7 @@ app.get('/resume-highlights', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.render('projects', {footerClass: "", heading: "Contact", desc: "Let's get in touch! I'll get back to you as soon as I can."});
+    res.render('contact', {footerClass: "", heading: "Contact", desc: "Let's get in touch! I'll get back to you as soon as I can."});
 });
 
 const port = 3303;
