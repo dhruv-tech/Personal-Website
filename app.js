@@ -22,5 +22,5 @@ app.get('/contact', (req, res) => {
     res.render('contact', {footerClass: "", heading: "Contact", desc: "Let's get in touch! I'll get back to you as soon as I can."});
 });
 
-const port = 3303;
+const port = 80;
 app.listen(port, () => console.log(`Ready: App active on port ${port}`));
