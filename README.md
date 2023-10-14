@@ -2,7 +2,7 @@
 
 (Archived, Version 2.x.x)
 
-🆕 The latest Version of the site can be found [here](https://github.com/dhruv-tech/dhruv.tech).
+🆕 Latest version of the site can be found [here](https://github.com/dhruv-tech/dhruv.tech).
 
 ⌚ Older Version: [v1.x.x](https://github.com/dhruv-tech/dhruv.tech_v1)
 
